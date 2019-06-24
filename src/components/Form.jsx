@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 
 const Form = props => {
   return (
@@ -14,9 +15,7 @@ const Form = props => {
           onChange={props.handleFormChange}
         />
       </label>
-      <div>
-        <input type="submit" value="Submit" />
-      </div>
+        <Button type="submit" value="Submit">Submit</Button>
     </form>
   );
 };
