@@ -1,42 +1,22 @@
-body {
-  margin: 0;
-  padding: 1em;
-  font-family: sans-serif;
-  background: #08161A;
-  color: white;
-  text-align: center;
-}
-
-svg g {
-  fill: #D75C21;
-}
-
-svg g polygon {
-  stroke: #D75C21;
-  stroke-width: 0.2;
-  transition: fill-opacity .2s;
-}
-svg g text {
-  font-size: 0.1em;
-  fill: #FFFFFF;
-  fill-opacity: 0.4;
-  transition: fill-opacity .2s;
-}
-
-svg path {
-  fill: none;
-  stroke: hsl(60, 20%, 70%);
-  stroke-width: 0.4em;
-  stroke-opacity: 0.3;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-
-form {
-  margin-top: 0;
-  margin-left: -50%;
-}
-
 svg {
-  margin-top: -5px;
+	width: 30%;
+	height: 30%;
+	position: relative;
 }
+
+.cell {
+	width: 20%;
+	height: 20%;
+	display: block;
+}
+
+.username {
+	width: 20%;
+	margin-top: -100px;
+}
+
+.cellContainer {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
